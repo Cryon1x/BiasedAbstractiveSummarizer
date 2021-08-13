@@ -11,7 +11,7 @@ To run sentiment analysis front-end, download the repo and run sentiment/main.py
 # Abstractive Summarizer 
 An example training dataset can be found here: https://www.kaggle.com/snap/amazon-fine-food-reviews
 
-Download the dataset and store it as summarylib/data/reviews.csv. Run summary/lib/main.py. It will ask you for permission to clean the data before it begins training. To alter the parameters of the training set to go faster/slower, adjust the variable DIM in main.py. To see sample sentiment/summaries, uncomment lines 281-285. NOTE that some training datasets may be mislabeled by pandas (known issue) so ymmv. Also note that an attention mechanism was not implemented in keras by default, so we  used code from https://github.com/thushv89/attention_keras for our attention layer implementation. The file is called "borrowed_attention.py". 
+Download the dataset and store it as summary/lib/data/reviews.csv. Run summary/lib/main.py. It will ask you for permission to clean the data before it begins training. To alter the parameters of the training set to go faster/slower, adjust the variable DIM in main.py. To see sample sentiment/summaries, uncomment lines 281-285. NOTE that some training datasets may be mislabeled by pandas (known issue) so ymmv. Also note that an attention mechanism was not implemented in keras by default, so we  used code from https://github.com/thushv89/attention_keras for our attention layer implementation. The file is called "borrowed_attention.py". 
 
 
 
